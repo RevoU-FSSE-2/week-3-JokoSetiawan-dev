@@ -158,13 +158,11 @@ nav ul li a:hover {
   align-items: center;
   border-radius: 2rem;
   object-fit: cover;
-  filter: grayscale();
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .container-grid img:hover {
   transform: scale(1.1);
-  filter: grayscale(0);
 }
 
 .img1 {
@@ -195,4 +193,131 @@ nav ul li a:hover {
 .img6 {
   grid-column: 4;
   grid-row: 1;
+}
+
+/* Video */
+
+.video {
+  padding: 60px;
+}
+
+.head {
+  text-align: center;
+}
+
+.video-head {
+  background-color: #38cca2;
+  padding: 0 30px 0 30px;
+  border-style: none;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.yt-vid {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Form */
+
+.form-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-capt {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #38cca2;
+  text-shadow: 1px 1px gray;
+  font-size: 2em;
+}
+
+.form {
+  width: 60%;
+  background-color: #38cca2;
+  border-style: none;
+  border-radius: 1rem;
+  padding: 25px 30px;
+  font-size: 1.3em;
+}
+
+.border-form {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.input-box {
+  color: white;
+}
+
+.input-box input {
+  height: 45px;
+  width: 170%;
+  border-style: none;
+  border-radius: 2rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.date-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.date-form input {
+  border: none;
+  width: 120px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  font-size: 0.64em;
+  font-family: "poppins";
+}
+
+.details {
+  margin-left: 0px;
+}
+
+.news {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.submit {
+  display: flex;
+  width: 170%;
+  justify-content: center;
+}
+button {
+  margin-left: 10px;
+  margin-top: 10px;
+  border: none;
+  border-style: none;
+  color: #68ad7c;
+  padding: 7px 30px;
+  background-color: white;
+  border-radius: 3rem;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  background-color: #38cca2;
+  color: white;
+  height: 50px;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
 }
