@@ -64,6 +64,7 @@ nav ul li a:hover {
 .intro {
   margin: 100px 100px 100px 100px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
