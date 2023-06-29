@@ -241,7 +241,7 @@ nav ul li a:hover {
 }
 
 .form {
-  width: 60%;
+  width: 36%;
   background-color: #38cca2;
   border-style: none;
   border-radius: 1rem;
@@ -253,7 +253,7 @@ nav ul li a:hover {
   color: white;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: left;
   display: inline-block;
 }
 
@@ -263,11 +263,12 @@ nav ul li a:hover {
 
 .input-box input {
   height: 45px;
-  width: 170%;
+  width: 100%;
   border-style: none;
   border-radius: 2rem;
   margin-top: 10px;
   margin-bottom: 20px;
+  justify-content: left;
 }
 
 .date-form {
@@ -296,7 +297,7 @@ nav ul li a:hover {
 }
 .submit {
   display: flex;
-  width: 170%;
+  width: 100%;
   justify-content: center;
 }
 button {

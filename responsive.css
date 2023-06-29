@@ -1,9 +1,7 @@
-@media only screen and (max-width: 1440px) {
-  .input-box input {
-    width: 238%;
-  }
-  .submit {
-    width: 238%;}
+@media only screen and (min-width: 1440px) {
+ .form {
+  width: 25%;
+ }
 }
 
 @media only screen and (max-width: 768px) {
@@ -35,11 +33,6 @@
   .video {
     padding-top: 0px;
   }
-  .input-box input {
-    width: 126%;
-  }
-  .submit {
-    width: 126%;}
 }
 
 @media only screen and (max-width: 425px) {
@@ -88,10 +81,7 @@
   .form-capt {
     font-size: 1.6em;
   }
-  .input-box input {
-    width: 98%;
-  }
-  .submit {
-    width: 98%;
+  .form {
+    width: 70%;
   }
 }
