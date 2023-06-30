@@ -254,7 +254,7 @@ nav ul li a:hover {
 
 .form {
   width: 36%;
-  background-color: #38cca2;
+  background-color: whitesmoke;
   border-style: none;
   border-radius: 1rem;
   padding: 25px 30px;
@@ -262,7 +262,7 @@ nav ul li a:hover {
 }
 
 .border-form {
-  color: white;
+  color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -276,11 +276,12 @@ nav ul li a:hover {
 .input-box input {
   height: 45px;
   width: 100%;
-  border-style: none;
+  border-style: solid;
   border-radius: 2rem;
   margin-top: 10px;
   margin-bottom: 20px;
   justify-content: left;
+
 }
 
 .date-form {
@@ -290,7 +291,7 @@ nav ul li a:hover {
 }
 
 .date-form input {
-  border: none;
+  border: solid;
   width: 120px;
   margin-top: 10px;
   padding: 10px 20px;
@@ -301,6 +302,7 @@ nav ul li a:hover {
 
 .details {
   margin-left: 0px;
+  color: black;
 }
 
 .news {
@@ -315,9 +317,9 @@ nav ul li a:hover {
 button {
   margin-left: 10px;
   margin-top: 10px;
-  border: none;
+  border: solid;
   border-style: none;
-  color: #68ad7c;
+  color: black;
   padding: 7px 30px;
   background-color: white;
   border-radius: 3rem;
