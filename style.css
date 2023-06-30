@@ -77,7 +77,7 @@ nav ul li a:hover {
 
 .greeting {
   font-size: 2em;
-  color: #68ad7c;
+  color: black;
 }
 
 .intro-desc {
@@ -91,9 +91,8 @@ nav ul li a:hover {
 /* About Us */
 
 .about-us {
-  background-color: #38cca2;
   min-height: 30vh;
-  color: white;
+  color: black;
 }
 
 .container {
@@ -104,6 +103,9 @@ nav ul li a:hover {
   padding-top: 30px;
   padding-bottom: 30px;
   gap: 30px;
+  background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .about-paragraph {
@@ -114,9 +116,9 @@ nav ul li a:hover {
 .about-button {
   margin-left: 10px;
   margin-top: 10px;
-  border: none;
-  border-style: none;
-  color: #68ad7c;
+  border: #38cca2;
+  border-style: solid;
+  color: black;
   padding: 7px 30px;
   background-color: white;
   border-radius: 3rem;
@@ -146,8 +148,7 @@ nav ul li a:hover {
 }
 
 .activity-class div h2 {
-  background-color: #38cca2;
-  color: white;
+  color: black;
   padding: 2px 30px;
   border-radius: 2rem;
 }
@@ -206,11 +207,10 @@ nav ul li a:hover {
 }
 
 .video-head {
-  background-color: #38cca2;
   padding: 0 30px 0 30px;
   border-style: none;
   border-radius: 2rem;
-  color: white;
+  color: black;
   font-size: 1.5em;
   text-align: center;
   display: inline-block;
@@ -236,7 +236,7 @@ nav ul li a:hover {
   margin-top: 40px;
   margin-bottom: 30px;
   color: #38cca2;
-  text-shadow: 1px 1px gray;
+  text-shadow: 2px 2px gray;
   font-size: 2em;
 }
 
